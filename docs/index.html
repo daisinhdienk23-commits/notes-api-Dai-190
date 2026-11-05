@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1 - Lập trình trên máy ảo đám mây</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            line-height: 1.6;
+            background-color: #f5f7fa;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        h1, h2 {
+            color: #174a7e;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #dceafa;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <h1>BÀI 1 - LẬP TRÌNH TRÊN MÁY ẢO ĐÁM MÂY</h1>
+
+    <h2>1. Bảng so sánh máy cá nhân và Codespace</h2>
+
+    <table>
+        <tr>
+            <th>Tiêu chí</th>
+            <th>Máy cá nhân</th>
+            <th>Codespace</th>
+        </tr>
+
+        <tr>
+            <td>Thời gian từ lúc bắt đầu đến khi chạy được node -v</td>
+            <td>3 phút 29 giây</td>
+            <td>Chưa đo được</td>
+        </tr>
+
+        <tr>
+            <td>Số CPU, RAM</td>
+            <td>
+                Intel Core i5-1115G4<br>
+                4 CPU logic, 16 GB RAM
+            </td>
+            <td>
+                2 CPU logic<br>
+                7,8 GB RAM
+            </td>
+        </tr>
+
+        <tr>
+            <td>Hệ điều hành</td>
+            <td>Microsoft Windows 11</td>
+            <td>Linux 6.8.0-1064-azure</td>
+        </tr>
+
+        <tr>
+            <td>Cách truy cập từ thiết bị khác</td>
+            <td>Cần cấu hình kết nối mạng và dịch vụ</td>
+            <td>Qua URL chuyển tiếp cổng 3000</td>
+        </tr>
+
+        <tr>
+            <td>Chi phí, đo bằng gì</td>
+            <td>Chi phí thiết bị, điện năng và bảo trì</td>
+            <td>Phút sử dụng, dung lượng lưu trữ và chi phí GitHub (USD)</td>
+        </tr>
+    </table>
+
+    <h2>2. Năm đặc tính điện toán đám mây theo NIST</h2>
+
+    <table>
+        <tr>
+            <th>Đặc tính NIST</th>
+            <th>Thao tác đã thực hiện trong bài</th>
+        </tr>
+
+        <tr>
+            <td>On-demand Self-service<br>(Tự phục vụ theo nhu cầu)</td>
+            <td>
+                Tự tạo GitHub Codespace để có môi trường lập trình
+                mà không cần nhờ nhà cung cấp cấu hình thủ công.
+            </td>
+        </tr>
+
+        <tr>
+            <td>Broad Network Access<br>(Truy cập mạng rộng rãi)</td>
+            <td>
+                Mở cổng 3000 ở chế độ Public và sử dụng điện thoại
+                truy cập API thông qua URL HTTPS.
+            </td>
+        </tr>
+
+        <tr>
+            <td>Resource Pooling<br>(Gộp tài nguyên)</td>
+            <td>
+                Sử dụng CPU, RAM và hệ điều hành Linux được cung cấp
+                bởi hạ tầng đám mây của GitHub Codespaces.
+            </td>
+        </tr>
+
+        <tr>
+            <td>Rapid Elasticity<br>(Co giãn nhanh)</td>
+            <td>
+                Tạo và khởi chạy môi trường Codespace theo nhu cầu,
+                có thể dừng khi không sử dụng.
+            </td>
+        </tr>
+
+        <tr>
+            <td>Measured Service<br>(Dịch vụ được đo lường)</td>
+            <td>
+                Kiểm tra mức sử dụng tài nguyên và chi phí tại
+                GitHub Billing → Usage.
+            </td>
+        </tr>
+    </table>
+
+    <h2>3. Kết luận</h2>
+
+    <p>
+        Qua bài thực hành, em đã tạo được môi trường lập trình
+        trên GitHub Codespaces, xây dựng API bằng Node.js và Express,
+        đồng thời truy cập API từ thiết bị khác thông qua Internet.
+    </p>
+
+    <p>
+        Bên cạnh đó, em đã sử dụng GitHub Pages để xuất bản trang
+        báo cáo kết quả thực hành. Qua bài tập, em hiểu rõ hơn về
+        năm đặc tính cơ bản của điện toán đám mây theo NIST.
+    </p>
+
+</div>
+</body>
+</html>

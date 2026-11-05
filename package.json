@@ -1,0 +1,24 @@
+{
+  "name": "notes-api-dai-190",
+  "version": "1.0.0",
+  "description": "Cloud Computing Lab Environment",
+  "main": "index.js",
+  "scripts": {
+  "start": "node src/server.js",
+  "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daisinhdienk23-commits/notes-api-Dai-190.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daisinhdienk23-commits/notes-api-Dai-190/issues"
+  },
+  "homepage": "https://github.com/daisinhdienk23-commits/notes-api-Dai-190#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
