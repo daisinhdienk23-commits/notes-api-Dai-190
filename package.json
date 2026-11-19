@@ -4,8 +4,8 @@
   "description": "Cloud Computing Lab Environment",
   "main": "index.js",
   "scripts": {
-  "start": "node src/server.js",
-  "test": "node --test"
+    "start": "node src/server.js",
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/daisinhdienk23-commits/notes-api-Dai-190#readme",
   "dependencies": {
-    "express": "^5.3.0"
+    "@supabase/supabase-js": "^2.119.1",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.2",
+    "multer": "^2.5.0"
   }
 }
